@@ -1,0 +1,16 @@
+Estrutura de pastas do projeto:
+
+arquivo .html;
+
+pastas:
+img => imagens 
+css => arquivos css
+js = arquivos de javascript
+=====================================================================================
+
+tags do html:
+<html><html> => tag principal de um arquivo html;
+<head><head> => onde terá o nosso título (nome da página e não o título que aparecerá na página), 
+                arquivos, metadados e etc;
+<title><title> => tag para criar o título;
+<body><body> => corpo do site;
