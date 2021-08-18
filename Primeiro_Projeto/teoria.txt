@@ -18,3 +18,8 @@ tags do html:
 
 
 
+<a href="./img/fotos/doguinho_de_oculos.jpg"></a>
+            <a href="./img/fotos/doguinho_travesso.png"></a>
+            <a href="./img/fotos/nariz_de_doguinho.jpg"></a>
+            <a href="./img/fotos/pincher.png"></a>
+              

@@ -12,7 +12,7 @@ function Demo_Justified() {
       galleryDisplayMode: 'pagination',                 // gallery pagination mode
       galleryMaxRows: 5,                                // gallery with max 3 rows
       gallerySorting: 'random',
-      thumbnailAlignment: 'fillWidth',
+      thumbnailAlignment: 'left',
       thumbnailL1GutterWidth: 20,
       thumbnailL1GutterHeight: 20,
       thumbnailBorderHorizontal: 1,
