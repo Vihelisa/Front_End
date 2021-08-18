@@ -1,7 +1,9 @@
 <html>
 
 <head>
+    <link  href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="/Primeiro_Projeto/css/main.css">
+    <link rel="stylesheet" href="./css/nanogallery2.min.css">
     <title>Galeria de Fotos</title>
 </head>
 
@@ -27,12 +29,30 @@
         </div>
     </main>
     <main>
-        <div class="fotos">
-            <img src="./img/fotos/cachorro_olhando_janela.jpeg" height="255" width="373" >
-            <img src="./img/fotos/dog_ouve_musica.jpg" height="255" width="373" >
-            
+        <div class="nanogallery2" data-nanogallery2='{
+            "kind":               "flickr",
+            "userID":             "149035168@N08",
+            "photoset":           "72157675219521270",
+            "thumbnailHeight":    "XLn",
+            "thumbnailWidth":     "XLn",
+            "galleryLastRowFull":  true
+            "itemsBaseURL": /img/fotos/
+          }'>
+
+            <a href="./img/fotos/cachorro_olhando_janela.jpeg"></a>
+            <a href="./img/fotos/dog_ouve_musica.jpg"></a>
+            <a href="./img/fotos/doguinho_de_oculos.jpg"></a>
+            <a href="./img/fotos/doguinho_travesso.png"></a>
+            <a href="./img/fotos/nariz_de_doguinho.jpg"></a>
+            <a href="./img/fotos/pincher.png"></a>
+              
         </div>
+
+
     </main>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="./js/jquery.nanogallery2.core.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

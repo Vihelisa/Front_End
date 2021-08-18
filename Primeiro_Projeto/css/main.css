@@ -30,7 +30,7 @@ h1 {
 .header-2 {
   background-color: #fffdfd;
   width: 100%;
-  height: 12%;
+  height: 11%;
 }
 .options ul li{
   margin-left: 10px;
@@ -41,7 +41,12 @@ h1 {
   float: right;
 }
 .fotos{
-  margin-left: 20px;
+  margin: 10px 40px;
   float: left;
   position: relative;
 }
+.fotos img {
+  padding: 15px;
+}
+
+

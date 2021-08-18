@@ -14,3 +14,7 @@ tags do html:
                 arquivos, metadados e etc;
 <title><title> => tag para criar o título;
 <body><body> => corpo do site;
+
+
+
+
