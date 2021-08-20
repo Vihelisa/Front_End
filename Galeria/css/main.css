@@ -73,9 +73,12 @@ h1 {
   color: #ffff;
   background-color: #000;
   position: absolute;
-  top: 120px;
+  top: 10px;
   right: 10px;
   padding: 5px 10px;
   font-size: 25px;
   border: 1px solid #ffff;
+}
+.modal_active{
+  visibility: visible;
 }
