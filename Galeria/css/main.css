@@ -47,6 +47,11 @@ h1 {
 .small_img {
   height: 100%;
   cursor: pointer;
+  transition: all linear 0.4s;
+}
+.small_img:hover{
+  filter: grayscale(100%);
+  transform: scale(1.1);
 }
 .linha {
   display: flex;
@@ -55,6 +60,11 @@ h1 {
 }
 #modal_img{
   width: 65vw;
+  transform: scale(0);
+  transition: all linear 0.4s;
+}
+.modal_active #modal_img{
+  transform: scale(1);
 }
 .modal{
   width: 100%;
@@ -62,6 +72,9 @@ h1 {
   background-color: rgba(0, 0, 0, .7);
   position: fixed;
   visibility: hidden;
+  z-index: 1;
+  opacity: 0;
+  transition: visibility 0.2s linear, opacity 0.2s linear;
 }
 .modal_content{
   display: flex;
@@ -77,8 +90,14 @@ h1 {
   right: 10px;
   padding: 5px 10px;
   font-size: 25px;
-  border: 1px solid #ffff;
+  border: 1px solid #6b6969;
+  transition: all ease-out 0.3s;
+  cursor: pointer;
+}
+#bot_close:hover{
+  background-color: #ffff;
 }
 .modal_active{
   visibility: visible;
+  opacity: 1;
 }
