@@ -1,0 +1,11 @@
+imagem de tela inteira:
+- dentro do <head><head> do html
+        <style>
+            body{
+                background-image: url(./img/layout.jpg);
+                background-attachment: fixed;
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-color: black;
+            }
+        </style>

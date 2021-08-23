@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100%;
+  }
+
+.cabecalho{
+    width: 100%;
+    height: 80px;
+    background-color: #ECDEDE;
+    margin-top: 50px;
+}
+main{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+    height: 80px;
+}
+.logo{
+    padding: 10px;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+
+.header2{
+    background-color: #F4F0F0;
+    width: 100%;
+    height: 2000px;
+}
