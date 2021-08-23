@@ -23,10 +23,16 @@ main{
     padding: 10px;
 }
 .logo img{
-    width: 60px;
-    height: 60px;
+    width: 7%;
+    float: left;
 }
-
+h1{
+    width: 50%;
+    font-size: 25px;
+    padding: 10px;
+    color: #754343;
+    font-family: fantasy;
+}
 .header2{
     background-color: #F4F0F0;
     width: 100%;
