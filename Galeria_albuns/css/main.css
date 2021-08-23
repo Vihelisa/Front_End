@@ -42,9 +42,19 @@ h1 {
 .busca {
   width: 30%;
   float: right;
+  align-items: center;
 }
 .busca input{
-    margin-top: 30px;
+    background-image: url('../img/lupa.png');
+    background-size: 12%;
+    background-repeat: no-repeat;
+    background-position: 89%;
+    background-color: #ECDEDE;
+    border: 1px solid #5f3636;
+    margin-top: 25px;
+    height: 10px;
+    width: 180px;
+    padding: 10px;
 }
 .header3 {
   background-color: #f4f0f0;
